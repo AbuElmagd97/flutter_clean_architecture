@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_clean_archeticture/core/utils/app_strings.dart';
-import 'package:flutter_clean_archeticture/features/favourite_quote/presentation/screens/favourite_quote_screen.dart';
 import 'package:flutter_clean_archeticture/features/random_quote/presentation/screens/quote_screen.dart';
 
 class Routes {
@@ -14,10 +13,6 @@ class AppRoutes {
       case Routes.initialRoute:
         return MaterialPageRoute(
           builder: (context) => const QuoteScreen(),
-        );
-      case Routes.favouriteQuoteRoute:
-        return MaterialPageRoute(
-          builder: (context) => const FavouriteQuoteScreen(),
         );
 
       default:
